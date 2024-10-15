@@ -8,6 +8,16 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       appBar: TopAppBar(),
+      body: Column(
+        children: [
+          TextField(
+            decoration: InputDecoration(
+              hintText: 'Search Pancakes',
+              prefixIcon: Icon(Icons.search)
+            ),
+          )
+        ],
+      )
     );
   }
 }
