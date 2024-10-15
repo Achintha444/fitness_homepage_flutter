@@ -1,4 +1,4 @@
-import 'package:fitness_homepage_flutter/pages/widgets/top_app_bar/top_app_bar.dart';
+import 'package:fitness_homepage_flutter/pages/widgets/top_app_bar.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
