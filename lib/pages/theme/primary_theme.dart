@@ -26,6 +26,7 @@ abstract class PrimaryTheme {
             borderSide: BorderSide.none,
           ),
         ),
+        dividerColor: ProjectColors.secondaryTextColor,
       );
 }
 
