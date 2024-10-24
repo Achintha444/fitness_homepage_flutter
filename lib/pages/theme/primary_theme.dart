@@ -8,7 +8,6 @@ abstract class PrimaryTheme {
           titleTextStyle: TextStyle(
             fontFamily: "Poppins",
             fontSize: 18,
-            fontWeight: FontWeight.bold,
             color: ProjectColors.textColor,
           ),
         ),

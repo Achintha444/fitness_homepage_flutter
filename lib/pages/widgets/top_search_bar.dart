@@ -8,7 +8,7 @@ class TopSearchBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(top: 32, left: 16, right: 16),
+      margin: const EdgeInsets.only(top: 32),
       decoration: const BoxDecoration(
         boxShadow: [
           BoxShadow(
