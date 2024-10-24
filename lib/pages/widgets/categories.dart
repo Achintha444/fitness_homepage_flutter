@@ -14,6 +14,7 @@ class Categories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const MainTitle(title: "Category"),
         const SizedBox(height: 16),
