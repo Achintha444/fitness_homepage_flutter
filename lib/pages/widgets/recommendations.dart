@@ -18,14 +18,14 @@ class Recommendations extends StatelessWidget {
         const MainTitle(title: "Recommendation\nfor Diet"),
         const SizedBox(height: 16),
         SizedBox(
-          height: 136,
+          height: 192,
           child: ListView.separated(
             separatorBuilder: (context, index) => const SizedBox(width: 16),
             scrollDirection: Axis.horizontal,
             itemCount: _getRecommendations().length,
             itemBuilder: (context, index) {
               return Container(
-                width: 96,
+                width: 192,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(16),
                   color: _getRecommendations()[index].boxColor,
@@ -33,13 +33,8 @@ class Recommendations extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    Container(
-                      height: 64,
-                      width: 64,
-                      decoration: const BoxDecoration(
-                        color: ProjectColors.appBarIconContainer,
-                        shape: BoxShape.circle,
-                      ),
+                    SizedBox(
+                      height: 100,
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Image.asset(
@@ -48,14 +43,27 @@ class Recommendations extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Text(
-                      _getRecommendations()[index].name,
-                      style: const TextStyle(
-                        fontSize: 14,
-                        color: ProjectColors.secondaryTextColor,
-                      ),
-                      textAlign: TextAlign.center,
-                    )
+                    Column(
+                      children: [
+                        Text(
+                          _getRecommendations()[index].name,
+                          style: const TextStyle(
+                            fontSize: 18,
+                            color: ProjectColors.textColor,
+                            fontWeight: FontWeight.w500
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        Text(
+                          "${_getRecommendations()[index].calories} | ${_getRecommendations()[index].duration} | ${_getRecommendations()[index].level}",
+                          style: const TextStyle(
+                            fontSize: 12,
+                            color: ProjectColors.secondaryTextColor
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                    ),
                   ],
                 ),
               );
