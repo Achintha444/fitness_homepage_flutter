@@ -16,14 +16,14 @@ class HomePage extends StatelessWidget {
       body: MainLayout(
         child: Column(
           children: [
-            TopSearchBar(),
-            SizedBox(height: 28),
+            const TopSearchBar(),
+            const SizedBox(height: 28),
             Expanded(
               child: Stack(
                 children: [
                   ListView(
                     shrinkWrap: true,
-                    children: [
+                    children: const [
                       Categories(),
                       SizedBox(height: 28),
                       Recommendations(),
