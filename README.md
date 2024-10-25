@@ -1,16 +1,20 @@
-# fitness_homepage_flutter
+# Fitness Homepage
 
-A new Flutter project.
+This project was completed using Flutter, a UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
+
+## Screenshots
+
+![Screenshot](https://user-images.githubusercontent.com/63092442/197798860-6c4e5c5a-8e8f-4e6c-9e7e-7a4c5d8f7f9d.png)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run the project, clone the repository and run the following command:
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
