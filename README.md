@@ -4,7 +4,8 @@ This project was completed using Flutter, a UI toolkit for building natively com
 
 ## Screenshots
 
-![Screenshot](https://user-images.githubusercontent.com/63092442/197798860-6c4e5c5a-8e8f-4e6c-9e7e-7a4c5d8f7f9d.png)
+![Screenshot1](https://github.com/Achintha444/fitness_homepage_flutter/blob/main/readme_images/Screenshot1.png)
+![Screemshot2](https://github.com/Achintha444/fitness_homepage_flutter/blob/main/readme_images/Screenshot2.png)
 
 ## Getting Started
 
