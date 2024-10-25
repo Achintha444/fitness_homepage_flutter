@@ -13,6 +13,10 @@ class MainTitle extends StatelessWidget {
         fontWeight: FontWeight.bold,
       ),
       textAlign: TextAlign.left,
+      textHeightBehavior: const TextHeightBehavior(
+        applyHeightToFirstAscent: false,
+        applyHeightToLastDescent: false,
+      ),
     );
   }
 }

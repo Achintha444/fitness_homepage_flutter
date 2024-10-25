@@ -33,8 +33,7 @@ class TopSearchBar extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                VerticalDivider(
-                  // Lighter color for subtlety
+                Divider(
                   indent: 8,
                   endIndent: 8,
                   thickness: 1,
